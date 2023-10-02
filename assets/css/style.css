@@ -32,7 +32,7 @@ body{
         fill: yelloW;
     }
     50% {
-        right: 100%; 
+        right: 80%; 
         fill: blue;
     }
 }
@@ -43,7 +43,7 @@ body{
         fill: yellow;
     }
     50% {
-        top: 100%; 
+        top: 80%; 
         fill: blue;
     }
 }
@@ -66,10 +66,10 @@ body{
     position: absolute;
     padding: 10px 20px;
     background-color: white;
-    animation: bounceX 5s linear infinite alternate, bounceY 4s linear infinite alternate;
+    animation: dvdx 5s linear infinite alternate, dvdy 4s linear infinite alternate;
 } 
 
-@keyframes bounceX {
+@keyframes dvdx {
     0%, 100% {
         left: 0;
         fill: green;
@@ -80,7 +80,7 @@ body{
     }
 }
 
-@keyframes bounceY {
+@keyframes dvdy {
     0%, 100% {
         top: 0;
         fill: blue;
@@ -91,6 +91,75 @@ body{
      }
 }   */
 
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.DVD{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.logo svg {
+
+
+    width: 400px !important;
+    height: 400px;
+    animation: dvdxy 8s linear infinite alternate;
+
+}
+
+@keyframes dvdxy {
+    0% {
+        transform: translate(0, 0);
+        fill: yellow ;
+    }
+
+    15% {
+        transform: translate(531px, 431px);
+        fill: blue;
+
+    }
+
+    30% {
+        transform: translate(931px, -100px);
+        fill: green;
+    }
+
+    45% {
+        transform: translate(131, 131);
+        fill: red;
+
+    }
+
+    60% {
+        transform: translate(200px, 431px);
+        fill: aqua;
+
+    }
+
+    75% {
+        transform: translate(930px, 131px);
+        fill: brown;
+
+    }
+    100% {
+        transform: translate(130px, 531px);
+        fill: brown;
+
+    }
+} */
 
 /* ???????????????????????????????? */
 /* * {
