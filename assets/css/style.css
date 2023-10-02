@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.DVD{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.logo svg{
+    width: 100px !important;
+    position: absolute;
+    background-color: black;
+    animation: dvdx 5s linear infinite ,  8s linear infinite  dvdy;
+    
+}
+
+@keyframes dvdx {
+    0%, 100% {
+        right: 0;
+        fill: green;
+    }
+    50% {
+        right: 100%; 
+        fill: red;
+    }
+}
+
+@keyframes dvdy {
+    0%, 100% {
+        top: 0;
+        fill: yellow;
+    }
+    50% {
+        top: 100%; 
+        fill: blue;
+    }
+}
+
+ 
+ 
+ /* body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.DVD{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.logo{
+    position: absolute;
+    padding: 10px 20px;
+    background-color: white;
+    animation: bounceX 5s linear infinite alternate, bounceY 4s linear infinite alternate;
+} 
+
+@keyframes bounceX {
+    0%, 100% {
+        left: 0;
+        fill: green;
+    }
+    50% {
+        left: calc(100% - 60px); 
+        fill: yellow;
+    }
+}
+
+@keyframes bounceY {
+    0%, 100% {
+        top: 0;
+        fill: blue;
+    }
+    50% {
+        top: calc(100% - 40px);  
+        fill: red;
+     }
+}   */
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+svg{
+    fill: red;
+    width: 100px;
+}
+marquee {
+    height: 100vh;
+    
+}
+
+marquee svg{
+    fill: pink;
+}  */
+
+
